@@ -92,4 +92,17 @@ python -m venv venv
 
 # 5. Run the Premium Chat Interface
 .\venv\Scripts\streamlit.exe run app.py
- 
+
+```
+
+## 🛠️ Model Lifecycle & Ownership
+
+* **Developed & Trained By:** **Aditya Raj Chourasiya** 🧞
+* **Role:** Computer Science & Artificial Intelligence Engineer
+* **Core Pipeline Focus:** Supervised Fine-Tuning (SFT), Hybrid Deterministic Parsers, and Premium Dark Tech UI Architecture.
+
+---
+
+<p align="center">
+  Made with ⚡ by <a href="https://github.com/ADITYA990-IND">ADITYA990-IND</a> — Core Local LLM Pipeline Framework © 2026
+</p>
