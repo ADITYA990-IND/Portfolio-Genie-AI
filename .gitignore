@@ -1,0 +1,5 @@
+venv/
+portfolio_genie_model/
+training_outputs/
+__pycache__/
+.streamlit/
