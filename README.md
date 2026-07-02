@@ -29,17 +29,7 @@
           </tr>
         </table>
         <br>
-        <!-- GRAPHIC PIPELINE VISUALIZATION -->
-        <p align="center" style="margin: 15px 0;">
-          <img src="https://mermaid.ink/img/pako:eNptkEELwjAMxl_JOS9v9bBDe9tN8OCp4mU6m66ibZp0I8T_btfBwUtI8vLyfUkbKK0ZasKstS9bK6Blp0vIsZ-S24O0pYfU-LBlw_XGWh_YpUvDgh7UqA1wW3rT84XW6eIq4KPrWbB6QZ8v7Pq9Wz_YtZtGg57UeG_63fW7Wz_YLZtGQ09qvG_69_Z3_fN3_Rv7G8w2C5U?type=png" alt="Pipeline Diagram" width="90%" style="border-radius: 8px; filter: drop-shadow(0px 0px 8px rgba(56,189,248,0.3));" />
-        </p>
-        <p align="center" style="font-family: monospace; color: #64748b; font-size: 11px; margin: 0;">
-          [Fig 1.0: Real-Time Tokenized Input Vector Stream Routing Pipeline Engine]
-        </p>
-      </td>
-    </tr>
-  </table>
-</div>
+       
 
 <br>
 
@@ -81,3 +71,25 @@ Portfolio-Genie-AI/
 ├── venv/                       # Isolated Local Environment (Git-Ignored)
 ├── app.py                      # Premium Streamlit UI Script
 └── README.md                   # Project Documentation Matrix
+```
+## ⚙️ Quick Installation & Setup
+
+
+```powershell
+# 1. Clone the Architecture & Navigate inside
+git clone [https://github.com/ADITYA990-IND/Portfolio-Genie-AI.git](https://github.com/ADITYA990-IND/Portfolio-Genie-AI.git)
+cd Portfolio-Genie-AI
+
+# 2. Configure Environment & Dependencies
+python -m venv venv
+
+# 3. Direct Pip Execution to install frameworks
+.\venv\Scripts\pip.exe install -r requirements.txt
+.\venv\Scripts\pip.exe install streamlit
+
+# 4. Trigger Local Fine-Tuning Execution
+.\venv\Scripts\python.exe src/train.py
+
+# 5. Run the Premium Chat Interface
+.\venv\Scripts\streamlit.exe run app.py
+ 
