@@ -134,9 +134,13 @@ if user_query:
         with st.spinner("Genie parsing internal architecture layers... 🧠"):
             bot_response = get_curated_resume_data(user_query)
             
-            if not bot_response:
-                bot_response = "I am fine-tuned on Aditya's localized domain logs. Please query regarding specific tech matrices (React, Python, MLOps) or key projects."
-            
-            st.markdown(bot_response)
-            
+        if not bot_response:
+            bot_response = (
+            "🤖 **SYSTEM CONFIGURATION:** I am currently running on a trial model optimized for Aditya's "
+            "localized professional domain frameworks. Soon, my developer will upgrade my layers to parse "
+            "more complex queries. \n\n"
+            "✨ *In the meantime, feel free to drop a ⭐ and like this repository on GitHub! See you soon.*"
+        )
+        
+    st.markdown(bot_response)
     st.session_state.messages.append({"role": "assistant", "content": bot_response})
