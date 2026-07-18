@@ -77,7 +77,7 @@ Portfolio-Genie-AI/
 
 ```powershell
 # 1. Clone the Architecture & Navigate inside
-git clone [https://github.com/ADITYA990-IND/Portfolio-Genie-AI.git](https://github.com/ADITYA990-IND/Portfolio-Genie-AI.git)
+git clone [https://github.com/ADITYA990-IND/Portfolio-Genie-AI.git]
 cd Portfolio-Genie-AI
 
 # 2. Configure Environment & Dependencies
